@@ -1,4 +1,4 @@
-package com.javabasic;
+package com.javabasic.HolaMundo;
 
 public class HolaMundo {
     

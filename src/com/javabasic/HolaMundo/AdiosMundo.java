@@ -1,4 +1,4 @@
-package com.javabasic;
+package com.javabasic.HolaMundo;
 
 /*
  * Clase de prueba para crear un programa basico en Java
