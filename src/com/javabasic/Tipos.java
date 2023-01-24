@@ -6,6 +6,10 @@ package com.javabasic;
  * Dentro del paquete crear una clase.
  * Dentro de la clase crear un metodo main.
  * Imprimir todos los tipos de datos vistos.
+ * 
+ * Tipo de datos mas comunes:
+ * int, long, double, boolean, String
+ * 
  */
 
 public class Tipos {
