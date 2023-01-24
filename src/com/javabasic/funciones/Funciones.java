@@ -1,4 +1,4 @@
-package com.javabasic;
+package com.javabasic.funciones;
 
 /**
  *      Crear una funcion que reciba un precio

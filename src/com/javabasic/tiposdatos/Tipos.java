@@ -1,4 +1,4 @@
-package com.javabasic;
+package com.javabasic.tiposdatos;
 
 /**
  * Crear un proyecto java desde cero.

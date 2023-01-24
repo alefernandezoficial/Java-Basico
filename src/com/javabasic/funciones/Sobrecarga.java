@@ -1,4 +1,4 @@
-package com.javabasic;
+package com.javabasic.funciones;
 
 /**
  *      Sobrecarga permite duplicar un metodo siempre y cuando

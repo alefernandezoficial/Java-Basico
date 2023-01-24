@@ -1,4 +1,4 @@
-package com.javabasic;
+package com.javabasic.tiposdatos;
 
 /**
  * EVITAR DUPLICAR CODIGO

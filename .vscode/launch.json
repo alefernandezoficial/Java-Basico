@@ -1,0 +1,90 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio1",
+            "request": "launch",
+            "mainClass": "com.example.ejercicio1",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicio2",
+            "request": "launch",
+            "mainClass": "com.example.ejercicio2",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch AdiosMundo",
+            "request": "launch",
+            "mainClass": "com.javabasic.AdiosMundo",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch HolaMundo",
+            "request": "launch",
+            "mainClass": "com.javabasic.HolaMundo",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClaseIf",
+            "request": "launch",
+            "mainClass": "com.javabasic.estructurascontrol.condicionales.ClaseIf",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch ClaseIfElse",
+            "request": "launch",
+            "mainClass": "com.javabasic.estructurascontrol.condicionales.ClaseIfElse",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Funciones",
+            "request": "launch",
+            "mainClass": "com.javabasic.funciones.Funciones",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sobrecarga",
+            "request": "launch",
+            "mainClass": "com.javabasic.funciones.Sobrecarga",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Operadores",
+            "request": "launch",
+            "mainClass": "com.javabasic.tiposdatos.Operadores",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tipos",
+            "request": "launch",
+            "mainClass": "com.javabasic.tiposdatos.Tipos",
+            "projectName": "Java Basico_90288267"
+        }
+    ]
+}
