@@ -1,5 +1,10 @@
 package com.javabasic;
 
+/**
+ *      Crear una funcion que reciba un precio
+ *      y devuelva el precio con el IVA incluido.
+ */
+
 public class Funciones {
     public static void main(String[] args) {
 
