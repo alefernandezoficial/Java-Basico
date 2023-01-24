@@ -1,6 +1,6 @@
 package com.javabasic.estructurascontrol.condicionales;
 
-public class ClaswSwitch {
+public class ClaseSwitch {
     
     public static void main(String[] args) {
         

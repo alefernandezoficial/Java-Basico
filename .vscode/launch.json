@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BucleWhile",
+            "request": "launch",
+            "mainClass": "com.javabasic.estructurascontrol.repeticion.BucleWhile",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch BucleForEach",
+            "request": "launch",
+            "mainClass": "com.javabasic.estructurascontrol.repeticion.BucleForEach",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch BucleFor",
+            "request": "launch",
+            "mainClass": "com.javabasic.estructurascontrol.repeticion.BucleFor",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
             "name": "Launch ClaseIfElseIf",
             "request": "launch",
             "mainClass": "com.javabasic.estructurascontrol.condicionales.ClaseIfElseIf",
