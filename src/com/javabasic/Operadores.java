@@ -44,8 +44,13 @@ public class Operadores {
         boolean resultado3 = numero1 > 5 && numero1 < 30;
 
         int edad = 17;
-        boolean carnetJoven = edad >= 15 && edad <= 36;
+        boolean carnetJoven = edad >= 15 && edad <= 26;
 
+/**
+ *      operadores
+ *      incremento ++
+ *      decremento --
+ */
     }
 
 
