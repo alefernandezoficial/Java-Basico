@@ -1,5 +1,12 @@
 package com.javabasic.estructurascontrol.repeticion;
 
+/**
+ *      Crear un bucle que permita concatenar textos y imprima el resultado final por consola.
+ *      Concatenar nombres
+ *      Los textos pueden venir de un array String
+ *      String[] nombres = {"", "", "", "", ""};
+ */
+
 public class BucleWhile {
     
     public static void main(String[] args) {
