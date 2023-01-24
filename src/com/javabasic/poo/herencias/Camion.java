@@ -1,8 +1,5 @@
 package com.javabasic.poo.herencias;
 
-import java.io.ObjectOutputStream.PutField;
-
-
 /**
  * 
  *      Clase derivada o clase hija o subclase

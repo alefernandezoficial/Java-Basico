@@ -1,7 +1,5 @@
 package com.javabasic.poo.herencias;
 
-import java.security.PublicKey;
-
 import com.javabasic.poo.clases.Motor;
 import com.javabasic.poo.clases.Vehiculo;
 
