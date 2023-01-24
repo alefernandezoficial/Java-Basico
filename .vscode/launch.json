@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ConcatenarTextos",
+            "request": "launch",
+            "mainClass": "com.javabasic.estructurascontrol.repeticion.ConcatenarTextos",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
             "name": "Launch BucleWhile",
             "request": "launch",
             "mainClass": "com.javabasic.estructurascontrol.repeticion.BucleWhile",
