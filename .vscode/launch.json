@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ClaseIfElseIf",
+            "request": "launch",
+            "mainClass": "com.javabasic.estructurascontrol.condicionales.ClaseIfElseIf",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
             "name": "Launch Java Program",
             "request": "launch",
             "mainClass": ""
