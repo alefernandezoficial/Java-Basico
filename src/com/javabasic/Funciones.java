@@ -4,14 +4,24 @@ public class Funciones {
     public static void main(String[] args) {
 
         // Opcion 1: funcion sin parametros y SIN tipo de retorno
-        showMenu();
-        showMenu();
+        //showMenu();
+        //showMenu();
 
 
         // Opcion2: funcion sin parametros y CON tipo de retorno
+        String menu = getMenu();
+        System.out.println(menu); // getMenu();
 
+        double coins = getCOINS();
+        System.out.println(coins);
 
     }
+
+    static double getCOINS() {
+        return 99.23;
+    }
+
+
 /**
  *      void indica que no devuelve ningun dato
  */
@@ -22,5 +32,7 @@ public class Funciones {
         System.out.println("3- Exit");
     }
 
-    static void getMenu(){}
+    static String getMenu(){
+        return "Bienvenido jugador: \n 1- Seleccionar...";
+    }
 }
