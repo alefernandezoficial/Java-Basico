@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TipoArrayList",
+            "request": "launch",
+            "mainClass": "com.javabasic.tiposdatosavanzados.TipoArrayList",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch TipoVectores",
+            "request": "launch",
+            "mainClass": "com.javabasic.tiposdatosavanzados.TipoVectores",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch TipoArray",
+            "request": "launch",
+            "mainClass": "com.javabasic.tiposdatosavanzados.TipoArray",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.javabasic.tiposdatosavanzados.Main",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
             "name": "Launch Main",
             "request": "launch",
             "mainClass": "com.example.ejerciciotema5.Main",
