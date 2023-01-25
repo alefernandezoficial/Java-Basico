@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Mapas",
+            "request": "launch",
+            "mainClass": "com.javabasic.tiposdatosavanzados.Mapas",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch TipoBigDecimal",
+            "request": "launch",
+            "mainClass": "com.javabasic.tiposdatosavanzados.TipoBigDecimal",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
             "name": "Launch TipoArrayList",
             "request": "launch",
             "mainClass": "com.javabasic.tiposdatosavanzados.TipoArrayList",
