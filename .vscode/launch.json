@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ejercicioInputStream$CopiarFicheros",
+            "request": "launch",
+            "mainClass": "com.example.ejerciciotema789.ejercicioInputStream$CopiarFicheros",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicioDividePorCero$DividePorCero",
+            "request": "launch",
+            "mainClass": "com.example.ejerciciotema789.ejercicioDividePorCero$DividePorCero",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicioArrayList$ArrayString$ArrayInt",
+            "request": "launch",
+            "mainClass": "com.example.ejerciciotema789.ejercicioArrayList$ArrayString$ArrayInt",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicioArrayList$ArrayString",
+            "request": "launch",
+            "mainClass": "com.example.ejerciciotema789.ejercicioArrayList$ArrayString",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicioVector$EjercicioVector",
+            "request": "launch",
+            "mainClass": "com.example.ejerciciotema789.ejercicioVector$EjercicioVector",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicioArrayUniBidi$ArrayBidimensional",
+            "request": "launch",
+            "mainClass": "com.example.ejerciciotema789.ejercicioArrayUniBidi$ArrayBidimensional",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicioArrayUniBidi$ArrayUnidimensional",
+            "request": "launch",
+            "mainClass": "com.example.ejerciciotema789.ejercicioArrayUniBidi$ArrayUnidimensional",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicioCadenaReves$CadenaReves",
+            "request": "launch",
+            "mainClass": "com.example.ejerciciotema789.ejercicioCadenaReves$CadenaReves",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejercicioCadenaReves$ejercicios789$CadenaReves",
+            "request": "launch",
+            "mainClass": "com.example.ejerciciotema789.ejercicioCadenaReves$ejercicios789$CadenaReves",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
             "name": "Launch ImprimirStream",
             "request": "launch",
             "mainClass": "com.javabasic.entradasalida.ImprimirStream",
