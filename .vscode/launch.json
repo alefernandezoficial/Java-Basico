@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ImprimirStream",
+            "request": "launch",
+            "mainClass": "com.javabasic.entradasalida.ImprimirStream",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
             "name": "Launch Mapas",
             "request": "launch",
             "mainClass": "com.javabasic.tiposdatosavanzados.Mapas",

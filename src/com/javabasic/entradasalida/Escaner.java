@@ -2,7 +2,7 @@ package com.javabasic.entradasalida;
 
 import java.util.Scanner;
 
-public class Main {
+public class Escaner {
     public static void errorDivisionPorCero() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Introduce dos números: ");
