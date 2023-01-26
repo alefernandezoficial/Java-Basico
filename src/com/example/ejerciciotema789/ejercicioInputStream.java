@@ -11,12 +11,13 @@ public class ejercicioInputStream {
 
         public static void main(String[] args) {
 
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("Introduce el fichero de origen: ");
-            String fileIn = scanner.nextLine();
-            System.out.println("Introduce el fichero de destino: ");
-            String fileOut = scanner.nextLine();
-            copiar(fileIn, fileOut);
+            try (Scanner scanner = new Scanner(System.in)) {
+                System.out.println("Introduce el fichero de origen: ");
+                String fileIn = scanner.nextLine();
+                System.out.println("Introduce el fichero de destino: ");
+                String fileOut = scanner.nextLine();
+                copiar(fileIn, fileOut);
+            }
         }
 
         private static void copiar(String fileIn, String fileOut) {

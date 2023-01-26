@@ -8,7 +8,7 @@ public class ejercicioCadenaReves {
 
         public static void main(String[] args) {
 
-            System.out.println("-------------------- \n Cadena al Reves\n--------------------");
+            System.out.println("-------------------- \n Texto al Reves\n--------------------");
 
             try (Scanner scanner = new Scanner(System.in)) {
                 String texto;
