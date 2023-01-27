@@ -10,7 +10,7 @@ public class Main {
         // 1. Clases y objetos
         // Clase identificador = new Clase();
         // Crear un objeto utilizando el constructor vacio
-        Vehiculo toyotaPrius = new Vehiculo();
+        // Vehiculo toyotaPrius = new Vehiculo();
 
         // 1.1 Crear un objeto utilizando el constructor con parametros
         Motor motorGTI = new Motor("GTI", 190, 459.0, 6);

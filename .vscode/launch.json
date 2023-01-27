@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch swingTax",
+            "request": "launch",
+            "mainClass": "com.javabasic.produccion.swingTax.swingTax",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.javabasic.produccion.eventos.Main",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.javabasic.produccion.ejemploXML.Main",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.javabasic.poo.coninterfaces.Main",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
             "name": "Launch ejercicioInputStream$CopiarFicheros",
             "request": "launch",
             "mainClass": "com.example.ejerciciotema789.ejercicioInputStream$CopiarFicheros",
