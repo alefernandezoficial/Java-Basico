@@ -1,58 +1,62 @@
 package com.javabasic.tiposdatos;
 
 /**
- * Crear un proyecto java desde cero.
- * Crear un paquete.
- * Dentro del paquete crear una clase.
- * Dentro de la clase crear un metodo main.
- * Imprimir todos los tipos de datos vistos.
  * 
- * Tipo de datos mas comunes:
- * int, long, double, boolean, String
+ *      Tipo de datos mas comunes:
+ *      int, long, double, boolean, String
  * 
  */
 
+ /**
+  * --------------------
+  * Palabras reservadas:
+  *---------------------
+abstract	continue	for	        new	        switch
+assert***	default	    goto*	    package	    synchronized
+boolean	    do	        if	        private	    this
+break	    double	    implements	protected	throw
+byte	    else	    import	    public	    throws
+case	    enum****	instanceof	return	    transient
+catch	    extends	    int	        short	    try
+char	    final	    interface	static	    void
+class	    finally	    long	    strictfp**	volatile
+const*	    float	    native	    super	    while
+  */
+
 public class Tipos {
     public static void main(String[] args) {
+
+/**
+*      tipo identificador = 30;
+*      tipo identificador;
+*      identificador = 30;
+*/
         
         // 1. Numeros
-
         // 1.1 Enteros
-        byte variable1 = 5;
-        short variable2 = 10;
-        int variable3 = 30;
-        long variable4 = 100;
+        byte variable1 = 5; // 1 byte
+        short variable2 = 10; // 2 byte
+        int variable3 = 30; // 4 byte
+        long variable4 = 100; // 8 byte
 
-        // 1.2 Decimales
-        float variable5 = 5.5f;
-        double variable6 = 10.5d;
+        // 1.2 Decimales (puntos flotantes)
+        float decimal1 = 5.5f;
+        double decimal2 = 10.5d;
 
         // 2. Booleano
-        boolean variable7 = false;
-        boolean variable8 = true;
+        boolean falso = false;
+        boolean verdadero = true;
 
-        // 3. Texto
-        char variable9 = 'a';
-        String variable10 = "Texto";
+        // 3. Caracter
+        char caracter1 = 'a';
 
+        // 4. Cadena de texto (tipo primitivo)
+        String nombre = "Texto";
+        String apellido = "Texto2";
 
-        // Impresion de todos los tipos de datos
-        // 1.1 Enteros
-        System.out.println(variable1);
-        System.out.println(variable2);
-        System.out.println(variable3);
-        System.out.println(variable4);
+        // 5. Tipos envoltorio (base de datos)
+        Integer numero1 = null;
+        Long numero2 = 2L;
 
-        // 1.2 Decimales
-        System.out.println(variable5);
-        System.out.println(variable6);
-
-        // 2. Booleano
-        System.out.println(variable7);
-        System.out.println(variable8);
-
-        // 3. Texto
-        System.out.println(variable9);
-        System.out.println(variable10);
     }
 }

@@ -7,50 +7,58 @@ package com.javabasic.tiposdatos;
 public class Operadores {
     public static void main(String[] args) {
         
-    // Aritmeticos:
+    // Aritmeticos: + - / * %
     int numero1 = 10;
     int numero2 = 20;
-    int resultadoSuma = numero1 + numero2;
 
+    int resultadoSuma = numero1 + numero2;
         System.out.println(resultadoSuma);
-        System.out.println(resultadoSuma + 5.77);
 
     int resultadoResta = numero1 - numero2;
-
         System.out.println(resultadoResta);
 
-    // Comparacion
+    int resultadoMultiplica = numero1 * numero2;
+        System.out.println(resultadoMultiplica);
+
+    double resultadoDivide = numero1 / numero2; // Si es decimal, conviene double
+        System.out.println(resultadoDivide);
+
+    double resultadoTotal = numero1 % numero2; // Si es decimal, conviene double
+        System.out.println(resultadoTotal);
+
+    // Comparacion, logicos, relacion, booleanos
 /*
- *      < mayor que
- *      > menor que
+ *      > mayor que
+ *      < menor que
  *      >= mayor igual que
  *      <= menor igual que
  *      == igual que
+ *      != distinto
+ *      && and operador comprobar si se cumple una condicion booleano
+ *      || or se cumple esto o esto otro verdadero
+ *      ! negacion, podemos negar un valor
  *      === IMPORTANTE: EN JAVA NO EXISTE!!!
  */
 
-        boolean resultado1 = numero1 > numero2; // false - falso
-        System.out.println(resultado1);
-
-        boolean resultado2 = numero1 < numero2; // true - verdadero
-        System.out.println(resultado2);
-
-
+        // Asignacion
 /**
- *      Logicos
- *      and &&
- *      or ||
+ *      = 
+ *      +=
+ *      -=
+ *      /=
+ *      *=
+ *      %=
  */
-
-        boolean resultado3 = numero1 > 5 && numero1 < 30;
-
-        int edad = 17;
-        boolean carnetJoven = edad >= 15 && edad <= 26;
 
 /**
  *      operadores
- *      incremento ++
- *      decremento --
+ *      incremento ++ bucles for
+ *      decremento -- restar un valor sobre una variable
+ */
+
+        // Concatenacion
+/**
+ *      + orientacion a String para concatenar texto
  */
     }
 

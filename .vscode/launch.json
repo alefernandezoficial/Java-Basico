@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SickGamers",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.SickGamers",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Personal",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.Personal",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.Test",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.Main",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch EquipoCs",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.EquipoCs",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch playersName",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.playersName",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch teamName",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.teamName",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch FuncionesConceptos",
+            "request": "launch",
+            "mainClass": "com.javabasic.funciones.FuncionesConceptos",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
             "name": "Launch swingTax",
             "request": "launch",
             "mainClass": "com.javabasic.produccion.swingTax.swingTax",
