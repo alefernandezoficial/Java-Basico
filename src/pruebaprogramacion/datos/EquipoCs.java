@@ -1,4 +1,4 @@
-package pruebaprogramacion;
+package pruebaprogramacion.datos;
 
 /**
  *      Funciones y parametros tipo String
@@ -29,12 +29,18 @@ public class EquipoCs {
     // 1. Crea funcion "Equipo"
          teamCounterStrike();
 
+         String[] tagNames = {"danhiz", "jSk.", "Rusty", "kazz" , "thomz"};
+
+         for(String teamName : tagNames){
+             System.out.println(teamName);
+         }
+
     // 2. Funcion return(devuelve porque es String) Jugadores
-         String players = tagNames();
-         System.out.println(players);
+    //     String players = tagNames();
+    //     System.out.println(players);
 
     // 3. Crea funcion "Website"
-         webSiteLink();
+         webSiteLink("www.SickGamers.com.ar");
 
     // 4. Crea funcion concatenar Sponsord
         sponsord("EVGA LatinoAmerica & Razer");
@@ -52,15 +58,16 @@ public class EquipoCs {
     }
 
     // 3. Metodo tipo funcion (el nombre debe coincidir con el identificador)
-    private static void webSiteLink() {
-            System.out.println("www.SickGamers.com.ar");
+    private static String webSiteLink(String name) {
+            System.out.println(name);
+            return name;
     }
 
     // 2. Devuelve un tipo de dato en cadena de texto.
     // 2.1 void no devuelve return, String devuelve texto, int un numero entero, double un numero decimal.
-    private static String tagNames() {
-             return " jSk \n danhiz \n Rusty \n kazz \n thomz";
-    }
+    //private static String tagNames() {
+    //         return " jSk \n danhiz \n Rusty \n kazz \n thomz";
+    //}
 
     // 1. Llamo a la funcion teamCounterStrike e imprimo el mensaje.
     private static void teamCounterStrike() {

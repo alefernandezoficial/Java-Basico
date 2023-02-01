@@ -14,8 +14,8 @@ public class BucleWhile {
         // Bucle infinito, se usa para evaluar condiciones
         int contador = 0;
 
-        while(contador < 10){
-            contador++;
+        while(contador < 8){
+            contador++; // condicion
             if(contador == 5){
                 // break;
                 continue;

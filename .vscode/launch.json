@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Calculadora",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.myfirstapp.calculadora.Calculadora",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Personal",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.datos.Personal",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch forEach",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.datos.forEach",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch EquipoCs",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.datos.EquipoCs",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.objetos.Main",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuclesFor",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.BuclesFor",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch IfElse",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.IfElse",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
             "name": "Launch SickGamers",
             "request": "launch",
             "mainClass": "pruebaprogramacion.SickGamers",
