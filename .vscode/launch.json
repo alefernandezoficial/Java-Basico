@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Escaner",
+            "request": "launch",
+            "mainClass": "com.javabasic.entradasalida.Escaner",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.javabasic.produccion.ejemploJSON.Main",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch TipoString",
+            "request": "launch",
+            "mainClass": "com.javabasic.tiposdatosavanzados.TipoString",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
             "name": "Launch Calculadora",
             "request": "launch",
             "mainClass": "pruebaprogramacion.myfirstapp.calculadora.Calculadora",

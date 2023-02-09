@@ -3,30 +3,33 @@ package com.javabasic.entradasalida;
 import java.util.Scanner;
 
 public class Escaner {
+
     public static void errorDivisionPorCero() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Introduce dos números: ");
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Introduce dos números: ");
 
-        int numeroA = scanner.nextInt();
-        int numeroB = scanner.nextInt();
+            int numeroA = scanner.nextInt();
+            int numeroB = scanner.nextInt();
 
-        int resultado = numeroA / numeroB;
+            int resultado = numeroA / numeroB;
 
-        System.out.println("El resultado es: " + resultado);
+            System.out.println("El resultado es: " + resultado);
+        }
     }
 
     public static void errorDivisionPorCeroTry() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Introduce dos números: ");
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.print("Introduce dos números: ");
 
-        int numeroA = scanner.nextInt();
-        int numeroB = scanner.nextInt();
+            int numeroA = scanner.nextInt();
+            int numeroB = scanner.nextInt();
 
-        try {
-            int resultado = numeroA / numeroB;
-            System.out.println("El resultado es: " + resultado);
-        } catch (ArithmeticException e) {
-            System.out.println("¡No se puede dividir por cero!");
+            try {
+                int resultado = numeroA / numeroB;
+                System.out.println("El resultado es: " + resultado);
+            } catch (ArithmeticException e) {
+                System.out.println("¡No se puede dividir por cero!");
+            }
         }
     }
 

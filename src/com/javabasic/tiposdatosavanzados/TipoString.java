@@ -2,7 +2,6 @@ package com.javabasic.tiposdatosavanzados;
 
 public class TipoString {
 
-public class Main {
     public static void main(String[] args) {
         String cadena = "Mensaje de texto";
 //                       0123456789012345
@@ -26,7 +25,5 @@ public class Main {
         }
 
     }
-
-}
 
 }
