@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InteractiveFile",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.myfirstapp.basededatos.InteractiveFile",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
+            "name": "Launch Basededatos",
+            "request": "launch",
+            "mainClass": "pruebaprogramacion.myfirstapp.basededatos.Basededatos",
+            "projectName": "Java Basico_90288267"
+        },
+        {
+            "type": "java",
             "name": "Launch Escaner",
             "request": "launch",
             "mainClass": "com.javabasic.entradasalida.Escaner",
