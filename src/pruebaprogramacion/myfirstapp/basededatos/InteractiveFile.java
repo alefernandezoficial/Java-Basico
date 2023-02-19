@@ -53,7 +53,7 @@ public class InteractiveFile {
                 password = scan.nextLine();
             }
 /*
- * IMPRESION DE ARCHIVO CON BASE DE DATOS
+ * IMPRESION DE ARCHIVO TXT
  */
             System.out.println("Creando archivo de usuario ...");
             File userFile = new File(username + ".txt");
